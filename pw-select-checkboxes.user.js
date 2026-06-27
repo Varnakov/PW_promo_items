@@ -3,7 +3,7 @@
 // @namespace    https://pwonline.ru/
 // @version      4.2
 // @description  Выделение предметов, прокрутка к «Передать», снятие лимита в 6 чекбоксов, сервер «Мицар» и персонаж с max уровнем
-// @author       Versteeg
+// @author       Varnakov
 // @match        https://pwonline.ru/promo_items.php*
 // @updateURL    https://raw.githubusercontent.com/Varnakov/PW_promo_items/main/pw-select-checkboxes.user.js
 // @downloadURL  https://raw.githubusercontent.com/Varnakov/PW_promo_items/main/pw-select-checkboxes.user.js
