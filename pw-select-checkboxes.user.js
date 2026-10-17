@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Выделить чекбоксы (Perfect World)
 // @namespace    https://pwonline.ru/
-// @version      4.2
-// @description  Выделение предметов, прокрутка к «Передать», снятие лимита в 6 чекбоксов, сервер «Мицар» и персонаж с max уровнем
-// @author       Varnakov
+// @version      4.3
+// @description  Выделение предметов, прокрутка к «Передать», снятие лимита в 6 чекбоксов, сервер «Цефей» и персонаж с max уровнем
+// @author       Versteeg
 // @match        https://pwonline.ru/promo_items.php*
 // @updateURL    https://raw.githubusercontent.com/Varnakov/PW_promo_items/main/pw-select-checkboxes.user.js
 // @downloadURL  https://raw.githubusercontent.com/Varnakov/PW_promo_items/main/pw-select-checkboxes.user.js
@@ -68,7 +68,7 @@
     window.__pwShardLocked = false;
     window.__pwCharLocked = false;
 
-    var SHARD_NAME = '\\u041c\\u0438\\u0446\\u0430\\u0440';
+    var SHARD_NAME = '\\u0426\\u0435\\u0444\\u0435\\u0439';
     var LEVEL_RE = /\\u0443\\u0440\\u043e\\u0432\\u0435\\u043d\\u044c\\s*:\\s*(\\d+)/i;
 
     function findMitsarId() {
